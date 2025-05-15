@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SMM Online</title>
+        <link href="./SMMO Images/SMMOnlineLogo.png" rel="icon">
+        <link href="levelsHTML.css" rel="stylesheet">
+        <script src="levelsHTML.js" defer></script>
+    </head>
+    <body>
+        <h1 id="h1">Select A Level To See It's Id And Icon:</h1>
+        <h2 id="h2">Filter Levels By Name</h2>
+        <h2 id="h21" style="visibility: hidden;"></h2>
+        <h2 id="h22" style="visibility: hidden;"></h2>
+        <h2 id="h23" style="visibility: hidden;"></h2>
+        <input type="text" id="filterer" name="TheFilter" placeholder="This Is Case Sensitive">
+        <input type="button" id="filterButton" value="Filter" onclick="handleFilter()">
+        <table id="e">
+            <thead>
+                <tr>
+                    <th>Level Name</td>
+                    <th>Date Added</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="levels.html?levelId=-1">SMM: JE Test Level</a></td>
+                    <td>N/A</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

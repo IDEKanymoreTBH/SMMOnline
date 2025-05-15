@@ -1,0 +1,12 @@
+h1, h2 {
+    text-align: center;
+}
+table, tr, td {
+    border: 1px solid black;
+}
+table, #filterer, #filterButton {
+    margin: auto;
+}
+#filterer, #filterButton {
+    display: block;
+}

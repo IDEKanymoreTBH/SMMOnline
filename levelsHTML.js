@@ -12,7 +12,7 @@ function renderTable(renderableItems) {
 
 }
 let items = [
-    {name: "SMM JE Test Level", link: "index.html?levelId=-1", dateAdded: "N/A"},
+    {name: "SMM JE Test Level", link: "idekanymoretbh.github.io/SMMOnline?levelId=-1", dateAdded: "N/A"},
     {name: "Wait For Update To Add. Do Krunker Instead", link: "https://krunker.io", dateAdded: "Soon..."}
 ];
 const levelParam = new URLSearchParams(window.location.search);
